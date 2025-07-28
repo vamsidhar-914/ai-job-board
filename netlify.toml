@@ -25,7 +25,8 @@ status = 200
   q = ":quality"
 
 [build]
-  command = "npm install --legacy-peer-deps"
+  command = "npm ci --legacy-peer-deps && npm run build"
+
 
 [context]
 
