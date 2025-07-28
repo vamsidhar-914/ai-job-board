@@ -25,7 +25,7 @@ status = 200
   q = ":quality"
 
 [build]
-  command = "npm install --force && npm run build"
+  command = "npm install --force"
 
 [context]
 
